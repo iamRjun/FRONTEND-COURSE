@@ -1,0 +1,97 @@
+/* My styles */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow'
+}
+
+
+/* grouped css*/
+.wrapper {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+.menu-items li {
+    float: left;
+    border-right: 2px solid red;
+    padding: 5px 10px;
+
+}
+.fix {
+    clear:both;
+}
+
+.menu-items li:last-child {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 20px;
+}
+/*specific css */
+#my-logo {
+    text-align: center;
+}
+
+.image-wrap, .text-wrap {
+    float: left;
+    width: 48%;
+    margin-right: 5px;
+}
+
+.text-wrap {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.my-title, .second-title {
+    font-size: 24px;
+    color: darkgreen;
+}
+
+.second-title {
+    text-align: center;
+}
+
+.four-images-wrap {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.four-images-wrap img {
+    width:24%;
+}
+
+.thirdsection {
+    display: flex;
+}
+
+.thirdsection .left-side, .thirdsection .right-side {
+    width: 48%;
+}
+
+.thirdsection ol {
+    list-style: auto;
+    margin-left: 20px;
+}
+
+.thirdsection ul {
+    list-style: disc;
+    margin-left:20px;
+}
+
+.firstsection, .secondsection, .thirdsection {
+    border: 1px solid gray;
+    margin:5px;
+    padding: 5px;
+}
+
+.footer {
+    text-align: center;
+}
